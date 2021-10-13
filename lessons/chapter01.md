@@ -17,3 +17,8 @@ Database Layer
 We will be using MongoDB Atlas, MongoDB's official Database as a Service (DBaaS), so you will not need to manage the database component yourself. However, you will still need to install MongoDB locally to access the command line tools that interact with Atlas, to load data into MongoDB and potentially do some exploration of your database with the shell.
 
 The following README sections are here to get you setup for this course.
+
+```
+username: m220student
+password: m220password
+```
