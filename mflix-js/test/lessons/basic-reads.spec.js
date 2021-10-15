@@ -59,9 +59,9 @@ describe("Basic Reads", () => {
   // Looking at the document, we can see there is a lot of information.
   // What if we only wanted the title and year? You may be familiar with
   // projection mechanics in the mongo shell, where we might do something like
-  //
+  
   // db.movies.findOne({cast: "Salma Hayek"}, { title: 1, year: 1 })
-  //
+  
   // The Collection class also has projection functionality, but the usage is
   // different to that of the mongo shell.
 

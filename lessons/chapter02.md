@@ -24,3 +24,6 @@ If you aren't comfortable with promises, you can always supply a callback to the
 And if you don't pass a callback, a promise will be returned.
 
 ## Basic Reads
+To follow along with this lesson, open the file test/lessons/basic-reads.spec.js.
+
+
