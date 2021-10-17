@@ -120,7 +120,9 @@ export default class MoviesDAO {
 
     // TODO Ticket: Text and Subfield Search
     // Construct a query that will search for the chosen genre.
-    const query = {}
+
+    //{genre: [“Action”]} is a parameter in getMovies function in moviesDAO.js file. And genres is the fieldname in the database.
+    const query = { genres: { $in: searchGenre } }
     const project = {}
     const sort = DEFAULT_SORT
 
