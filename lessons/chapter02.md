@@ -11,3 +11,4 @@ The two idiomatic methods for inserting documents are insertOne and insertMany.
 Trying to insert a duplicate _id will fail.
 
 And as an alternative to inserting a document, an upsert in an update method can be used instead.
+
