@@ -252,4 +252,7 @@ export default class UserController {
       res.status(500).json(e)
     }
   }
+
+  
 }
+
